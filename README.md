@@ -1,3 +1,15 @@
+npx create-react-app my-app --use-npm
+
+cd my-app
+
+npm start
+
+
+Deploying to GH Pages
+npm install gh-pages --save-dev
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
