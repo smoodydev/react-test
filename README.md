@@ -8,6 +8,19 @@ npm start
 Deploying to GH Pages
 npm install gh-pages --save-dev
 
+in packages.json
+
+    top level add
+
+        "homepage": "https://smoodydev.github.io/react-test",
+
+    scrips add 
+
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+
+
+
 
 
 # Getting Started with Create React App
